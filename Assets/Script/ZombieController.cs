@@ -17,6 +17,8 @@ public class ZombieController : MonoBehaviour
 
     private void Start()
     {
+        stats = GetComponent<ZombieStats>();
+
         GameObject playerObject = GameObject.FindWithTag("Player");
 
         if (playerObject != null)
@@ -96,5 +98,30 @@ public class ZombieController : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         stats = GetComponent<ZombieStats>();
 
+        if (stats == null)
+        {
+            Debug.LogError("ZombieStats coponent not found on the same GameObject)");
+        }
+
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        //Check if the collision is with the cube
+        //if (collision.gameObject.CompareTag("Cube"))
+        //{
+        //    ArrowStats cubeStats = collision.gameObject.GetComponent<ArrowStats>();
+        //    if (cubeStats != null)
+        //    {
+        //        // Deal damage to the zombie based on cubeStats.damage
+        //        stats.TakeDamage(cubeStats.damage);
+        //    }
+        //}
+
+        if (collision.gameObject.CompareTag("Cube"))
+        {
+            Debug.Log("Hit the cube...");
+            stats.TakeDamage(10);
+        }
     }
 }

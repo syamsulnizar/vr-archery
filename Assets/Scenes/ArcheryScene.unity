@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 276346784}
   - component: {fileID: 276346783}
   m_Layer: 0
-  m_Name: Stand (2)
+  m_Name: Stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3857,7 +3857,7 @@ PrefabInstance:
     - target: {fileID: 4892345920189653449, guid: 6a64fab82afc0574db6c361c8137048e,
         type: 3}
       propertyPath: m_Name
-      value: Bow_Evil (1)
+      value: Bow_Evil
       objectReference: {fileID: 0}
     - target: {fileID: 5237345642741513075, guid: 6a64fab82afc0574db6c361c8137048e,
         type: 3}

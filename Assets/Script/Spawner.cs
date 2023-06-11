@@ -5,6 +5,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject zombiePrefab;             // Prefab dari zombie
+
     public int numberOfZombies = 10;            // Jumlah total zombie yang akan di-spawn
     public float spawnInterval = 2f;            // Waktu antara setiap spawn
     public Transform[] spawnPoints;             // Titik-titik spawn untuk zombie

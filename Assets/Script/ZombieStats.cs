@@ -15,13 +15,21 @@ public class ZombieStats : CharacterStats
 
     public UnityEvent eventAfterDie;
 
-
+    GameObject zombie;
 
 
     private void Start()
     {
         InitVariables();
         GetReferences();
+    }
+
+    private void Update()
+    {
+        if (zombie == null)
+        {
+            zombie = GameObject.Find("DieManager");
+        }
     }
 
     public void DealDamage(CharacterStats statsToDamage)
@@ -37,6 +45,10 @@ public class ZombieStats : CharacterStats
         eventAfterDie.Invoke();
     }
 
+    public void ZombieDie()
+    {
+        zombie.GetComponent<ZombieDie>().DieCount();
+    }
 
     private IEnumerator DestroyAfterAnimation()
     {

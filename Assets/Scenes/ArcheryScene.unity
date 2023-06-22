@@ -3845,6 +3845,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1404088519, guid: 6a64fab82afc0574db6c361c8137048e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1437948779, guid: 6a64fab82afc0574db6c361c8137048e, type: 3}
       propertyPath: m_InteractionManager
       value: 
@@ -3919,6 +3923,16 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1357068079}
+    - target: {fileID: 6224814822933725133, guid: 6a64fab82afc0574db6c361c8137048e,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6224814822933725133, guid: 6a64fab82afc0574db6c361c8137048e,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6498436286026626166, guid: 6a64fab82afc0574db6c361c8137048e,
         type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value

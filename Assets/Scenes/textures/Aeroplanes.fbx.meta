@@ -3,7 +3,42 @@ guid: ac78c26129eb9f64fac0b7225587bec1
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AirSpeed
+    second: {fileID: 2100000, guid: 4524642e0a31fea41a009e3eb47df893, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Altimeter
+    second: {fileID: 2100000, guid: 4968841847da43d4dbc3ef6db779cb46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Compass
+    second: {fileID: 2100000, guid: af969c2506d83384fb5b9fd10740072f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Horizontal
+    second: {fileID: 2100000, guid: 794a355d086bebf4ab83bb0c808a5d92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TurnCoordinator
+    second: {fileID: 2100000, guid: 87b9276302b3f384495f7a59b23c03b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VerticalSpeed
+    second: {fileID: 2100000, guid: 41cb7a197e7e2864392ad5288dbdaf73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_0.001
+    second: {fileID: 2100000, guid: 2c2a0a77c2692774fbe232c9f8ae0613, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -37,13 +72,13 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0

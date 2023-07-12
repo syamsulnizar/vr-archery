@@ -8,6 +8,7 @@ TagManager:
   - CinemachineTarget
   - Enemy
   - Cube
+  - XR Origin
   layers:
   - Default
   - TransparentFX

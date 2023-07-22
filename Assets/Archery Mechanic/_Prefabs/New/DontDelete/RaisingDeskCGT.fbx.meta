@@ -3,7 +3,12 @@ guid: 67051d178cd1fa74795947e9345eacc3
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RaisingDesk
+    second: {fileID: 2100000, guid: b1ca9ec6907372a4b895f7ceb5374b37, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

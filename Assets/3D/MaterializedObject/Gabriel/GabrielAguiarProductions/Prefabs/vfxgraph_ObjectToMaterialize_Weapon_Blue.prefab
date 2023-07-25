@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8621701959706068027
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8621701959706068024}
+  - component: {fileID: 8621701959706068025}
+  - component: {fileID: 8621701959706068026}
+  m_Layer: 0
+  m_Name: vfxgraph_ObjectToMaterialize_Weapon_Blue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8621701959706068024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8621701959706068027}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!2083052967 &8621701959706068025
+VisualEffect:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8621701959706068027}
+  m_Enabled: 1
+  m_Asset: {fileID: 8926484042661614526, guid: e9a6647a0ccaaaa42ad5927a1a3392c0, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
+  m_StartSeed: 0
+  m_ResetSeedOnPlay: 1
+  m_ResourceVersion: 1
+  m_PropertySheet:
+    m_Float:
+      m_Array:
+      - m_Value: 60
+        m_Name: RaysRate
+        m_Overridden: 0
+      - m_Value: 0.1
+        m_Name: RaysConeShape_baseRadius
+        m_Overridden: 1
+      - m_Value: 9
+        m_Name: FresnelPower
+        m_Overridden: 1
+      - m_Value: 100
+        m_Name: ParticlesMeshRate
+        m_Overridden: 1
+      - m_Value: 0.4
+        m_Name: ParticlesMeshSize
+        m_Overridden: 1
+      - m_Value: 30
+        m_Name: MeshNoiseScale
+        m_Overridden: 1
+      - m_Value: 40
+        m_Name: ParticlesRate
+        m_Overridden: 1
+      - m_Value: 2.5
+        m_Name: RaysDuration
+        m_Overridden: 1
+    m_Vector2f:
+      m_Array: []
+    m_Vector3f:
+      m_Array: []
+    m_Vector4f:
+      m_Array:
+      - m_Value: {x: 3.031433, y: 3.031433, z: 3.031433, w: 1}
+        m_Name: FinalMeshEmissionColor
+        m_Overridden: 1
+      - m_Value: {x: 0.46507844, y: 1.1489769, z: 4.2299995, w: 1}
+        m_Name: FresnelColor
+        m_Overridden: 1
+      - m_Value: {x: 0.46507844, y: 1.1489769, z: 4.2299995, w: 1}
+        m_Name: MeshColor
+        m_Overridden: 1
+      - m_Value: {x: 0.35504806, y: 0.58719486, z: 2.6082377, w: 1}
+        m_Name: RaysColor
+        m_Overridden: 1
+      - m_Value: {x: 1.427016, y: 2.7521024, z: 9.734288, w: 1}
+        m_Name: ParticlesColor
+        m_Overridden: 1
+      - m_Value: {x: 0.9414794, y: 1.8157103, z: 6.4222345, w: 1}
+        m_Name: ParticlesMeshColor
+        m_Overridden: 1
+      - m_Value: {x: 1.3904692, y: 3.3989246, z: 14.754423, w: 1}
+        m_Name: FlashColor
+        m_Overridden: 1
+    m_Uint:
+      m_Array: []
+    m_Int:
+      m_Array: []
+    m_Matrix4x4f:
+      m_Array: []
+    m_AnimationCurve:
+      m_Array:
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: -0.019654136
+            outSlope: -0.019654136
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.41192627
+            value: -0.007080078
+            inSlope: -3.7372663
+            outSlope: -3.7372663
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.104359865
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: FrsnelAnimation
+        m_Overridden: 1
+      - m_Value:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: -0.0066871643
+            value: 0.62252045
+            inSlope: -0.94821674
+            outSlope: -0.94821674
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.065664895
+          - serializedVersion: 3
+            time: 0.9151128
+            value: 0.0014648438
+            inSlope: -0.9682917
+            outSlope: -0.9682917
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.056844812
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_Name: MeshClippingCurve
+        m_Overridden: 1
+    m_Gradient:
+      m_Array: []
+    m_NamedObject:
+      m_Array:
+      - m_Value: {fileID: -265226816363114019, guid: fc4647bf0bacf77438b12e9630eadcfd, type: 3}
+        m_Name: MeshToMaterialize
+        m_Overridden: 0
+      - m_Value: {fileID: 2800000, guid: 3a54d4e9172178b4fb92d7ba3d67f937, type: 3}
+        m_Name: ParticlesTexture
+        m_Overridden: 1
+      - m_Value: {fileID: 2800000, guid: 3a54d4e9172178b4fb92d7ba3d67f937, type: 3}
+        m_Name: ParticlesMeshTexture
+        m_Overridden: 1
+    m_Bool:
+      m_Array: []
+--- !u!73398921 &8621701959706068026
+VFXRenderer:
+  serializedVersion: 1
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8621701959706068027}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

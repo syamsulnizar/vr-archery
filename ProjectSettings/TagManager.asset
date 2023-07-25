@@ -9,6 +9,10 @@ TagManager:
   - Enemy
   - Cube
   - XR Origin
+  - Projectile
+  - Water
+  - Flame
+  - Destroyer
   layers:
   - Default
   - TransparentFX
@@ -19,7 +23,7 @@ TagManager:
   - Arrow
   - Enemy
   - VR HUD
-  - 
+  - Interactable Object
   - 
   - 
   - 
